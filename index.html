@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+	<title>Farkel Board</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Loading Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet"> 
+
+    <!-- Loading Flat UI -->
+
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/dicegame.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+	
+	<!-- Load JS here for greater good -->
+    <script src="js/jquery-1.8.2.min.js"></script>
+	<!-- ========= my game js ============= -->
+	<script src="js/dicegame.js"></script>
+</head>
+
+
+
+<body>
+
+<header>
+	<div class="content">
+		<div id="logo"><a href="/u/8506619/DiceGame/dicegame.html"><h3>Farkel 10K</h3></a></div><!-- logo -->
+		<div class="clear"></div>
+	</div><!--content-->
+	
+</header>
+
+
+<div id="main">
+	<div class="content">
+	
+		<div class="player">
+			<div id="player1"> <!-- left player --> 
+				
+				<h5><img src="images/dice1.png">Player 1</h5>
+				<div class="totalscore"><h4>Roll!</h4></div>
+				<div class="recentscores">
+					<ul>
+						<li id="li0">0</li>
+						<li id="li1">0</li>
+						<li id="li2">0</li>
+					</ul>
+				</div><!-- recentscores -->
+			</div> <!-- closing player1 -->
+		</div><!-- player -->
+		
+		<div class="player">
+			<div id="player2"> <!-- right player -->
+				
+				<h5>Player 2<img src="images/dice2.png"></h5>
+				<div class="totalscore"><h4>Roll!</h4></div>
+				<div class="recentscores">
+					<ul>
+						<li id="li0">0</li>
+						<li id="li1">0</li>
+						<li id="li2">0</li>
+					</ul>
+				</div><!-- recentscores -->
+			</div><!-- closing player2 -->
+		</div> <!-- player -->
+		
+		<div class="player">
+			<div id="player3"> <!-- left player -->
+				
+				<h5><img src="images/dice3.png">Player 3</h5>
+				<div class="totalscore"><h4>Roll!</h4></div>
+				<div class="recentscores">
+					<ul>
+						<li id="li0">0</li>
+						<li id="li1">0</li>
+						<li id="li2">0</li>
+					</ul>
+				</div><!-- recentscores -->
+			</div><!-- closing player3 -->
+		</div> <!-- player -->
+		
+		<div class="player">
+			<div id="player4"> <!-- right player -->
+				
+				<h5>Player 4<img src="images/dice4.png"></h5>
+				<div class="totalscore"><h4>Roll!</h4></div>
+				<div class="recentscores">
+					<ul>
+						<li id="li0">0</li>
+						<li id="li1">0</li>
+						<li id="li2">0</li>
+					</ul>
+				</div><!-- recentscores -->
+			</div><!-- closing player4 -->
+		</div> <!-- player -->
+	
+	</div><!--content-->
+</div> <!-- closing main -->
+
+
+<div id="calculator">
+
+	<div class="content">
+	<!-- old icons, to small to click -->
+	<!-- <span class="fui-cross-24"></span>   <span class="fui-checkmark-24" ></span>   -->
+	
+		<div id="currentroll">
+			<div id="cancel" class="fui-cross-24"></div><span id="currentscore"><h4>Score...</h4></span><div id="submit" class="fui-checkmark-24"></div>
+		</div><!-- currentroll -->
+		
+		<div id="scorebuttons">
+			<div class="btn-toolbar">
+	            <div class="btn-group">
+	              	<input type="button" class="btn btn-primary" id="b50" value="50">
+	              	<input type="button" class="btn btn-primary" id="b100" value="100">
+	              	<input type="button" class="btn btn-primary" id="b300" value="300">
+	              	<input type="button" class="btn btn-primary" id="b1000" value="1000">
+	              	<input type="button" class="btn btn-primary" id="b1500" value="1500">
+	            </div><!-- btn-group -->
+	        </div> <!-- btn-toolbar -->
+		</div> <!-- currentroll -->
+	
+	</div><!--content-->
+	
+</div> <!-- closing calculator -->
+
+
+
+<footer>
+	<p>Ver 2.0 &#169; 2016 by Tim Martino</p>
+</footer>
+
+
+
+</body>

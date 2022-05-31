@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	background-color: #2c3e50;
+}
+
+header {
+	background-color: #ECF0F1;
+}
+
+header #logo {
+	max-width: 50%;
+	padding-left: 16px;
+	text-align: left;
+	color: #9B59B6;
+	float: left;
+}
+
+header #logo h3, a, a:hover {
+	display: inline;
+	text-decoration: none;
+	color: inherit;
+}
+
+header #topmenu {
+	color: #9B59B6;
+	max-width:20%;
+	cursor: pointer;
+	padding: 12px 16px 0px 0px;
+	float:right;
+}
+.clear { clear: both;}
+
+.content {
+	max-width: 375px;
+	margin: 0px auto;
+}
+
+#main {
+	/*background-color: #2c3e50;*/
+	color: #eee;	
+	
+}
+
+/* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Players
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+.player {
+	display: inline-block;
+	width:150px;
+	margin-top: 10px;
+	/*border: solid 1px;*/
+}
+
+.player img{
+	max-height: 16px;
+	vertical-align: text-top;
+	padding: 0 10px;
+}
+
+#player1 {
+	text-align: left;
+	border-bottom:solid 1px #34495E;
+	border-right:solid 1px #34495E;
+	border-radius: 8px;
+}
+
+#player2 {
+	text-align: right;
+	border-bottom:solid 1px #34495E;
+	border-left:solid 1px #34495E;
+	border-radius: 8px;
+}
+
+#player3 {
+	text-align: left;
+	border-bottom:solid 1px #34495E;
+	border-right:solid 1px #34495E;
+	border-radius: 8px;
+}
+
+#player4 {
+	text-align: right;
+	border-bottom:solid 1px #34495E;
+	border-left:solid 1px #34495E;
+	border-radius: 8px;
+}
+
+.player .totalscore {
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+
+.player .recentscores {
+	width: 100px;
+	margin: 0 auto;
+
+}
+
+.player .recentscores ul li {
+	text-align: center;
+	list-style: none;
+	padding-right: 30px;
+}
+
+
+
+/* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Calculator
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+#calculator {
+	background-color: #2c3e50;
+	color: #eee;
+	padding: 25px 0 10px 0;
+}
+
+#currentroll #cancel{
+	color: #E74C3C;
+	display: inline;
+	cursor: pointer;
+	padding: 10px 10px;
+}
+
+#currentroll #submit{
+	color: #1ABC9C;
+	display:inline;
+	cursor: pointer;
+	padding: 10px 10px;
+}
+
+#currentscore {
+	padding: 10px 40px;
+}
+
+#currentscore h4 {
+	display: inline;
+}
+
+#scorebuttons {
+	padding-top: 15px;
+}
+
+
+/* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+footer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+
+footer {
+	background-color: #9B59B6;
+	width:100%;
+	height: 20px;
+	position: absolute;
+	bottom: 0;
+}
+footer p {
+	color: #2C3E50;
+	font-size: 70%;
+}
